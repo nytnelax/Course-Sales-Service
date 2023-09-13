@@ -1,0 +1,36 @@
+html, 
+body{ 
+  margin: 0;
+  padding: 0;
+  color: var(--black);
+  background-color: var(--backgroundcol);
+  
+  font-family: 'Noto Sans', sans-serif;
+  
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+:root{
+  --black: #3B434E;
+  --gray-light: #ebebeb;
+  --gray: #a4a4a4;
+  --gray-dark: #787D85;
+  --white: #FFFFFF;
+  --primary: #7653FC;
+  --primary-hover: #6344df;
+  --red: #FC836D;
+  --lightred: #ff3b18;
+  --green: #1DC37E;
+  --lightgreen: #C8F8E4;
+  --font-family: 'Noto Sans', sans-serif;
+  --backgroundcol: #F5F6F8;
+
+}
